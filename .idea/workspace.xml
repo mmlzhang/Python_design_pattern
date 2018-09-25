@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a18512f-f283-46cb-abf8-ec27973f1dc9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/03_prototype_pattern/prototype.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-adapter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,6 +13,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/git_Python_Design_Pattern$prototype.coverage" NAME="prototype Coverage Results" MODIFIED="1537882502044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_prototype_pattern" />
+    <SUITE FILE_PATH="coverage/git_Python_Design_Pattern$04_adapter.coverage" NAME="04-adapter Coverage Results" MODIFIED="1537885925655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="477704464">
@@ -55,22 +56,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="2" />
+          <entry key="py" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="2" />
+          <entry key="Python" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1185" />
+          <entry key="py" value="2304" />
+          <entry key="txt" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1185" />
+          <entry key="PLAIN_TEXT" value="22" />
+          <entry key="Python" value="2304" />
         </counts>
       </usages-collector>
     </session>
@@ -89,16 +92,42 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/03_prototype_pattern/prototype.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-700">
-              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+            <state relative-caret-position="448">
+              <caret line="67" column="22" lean-forward="true" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
               <folding>
                 <element signature="e#24#35#0" expanded="true" />
-                <marker date="1537882678722" expanded="true" signature="245:250" ph="..." />
-                <marker date="1537882678722" expanded="true" signature="1378:1999" ph="..." />
-                <marker date="1537882678722" expanded="true" signature="1378:2037" ph="..." />
+                <marker date="1537883153225" expanded="true" signature="245:250" ph="..." />
+                <marker date="1537883153225" expanded="true" signature="1378:2082" ph="..." />
+                <marker date="1537883153225" expanded="true" signature="1378:2120" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mpdp-code-master/chapter4/adapter.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mpdp-code-master/chapter4/external.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/04-adapter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="53" column="28" lean-forward="true" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
+              <folding>
+                <marker date="1537886030040" expanded="true" signature="86:91" ph="..." />
+                <marker date="1537886030040" expanded="true" signature="305:507" ph="..." />
+                <marker date="1537886030040" expanded="true" signature="529:534" ph="..." />
+                <marker date="1537886030040" expanded="true" signature="738:743" ph="..." />
+                <marker date="1537886030040" expanded="true" signature="985:990" ph="..." />
               </folding>
             </state>
           </provider>
@@ -127,6 +156,7 @@
         <option value="$PROJECT_DIR$/mpdp-code-master/chapter2/builder.py" />
         <option value="$PROJECT_DIR$/02_builder_pattern/builder_pizza.py" />
         <option value="$PROJECT_DIR$/03_prototype_pattern/prototype.py" />
+        <option value="$PROJECT_DIR$/04-adapter.py" />
       </list>
     </option>
   </component>
@@ -166,7 +196,7 @@
               <item name="git_Python_Design_Pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="git_Python_Design_Pattern" type="462c0819:PsiDirectoryNode" />
               <item name="mpdp-code-master" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter3" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -199,7 +229,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.04-adapter">
+    <configuration name="04-adapter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_Design_Pattern" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04-adapter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="prototype" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_Design_Pattern" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -222,8 +274,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.prototype" />
+      <item itemvalue="Python.04-adapter" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.04-adapter" />
         <item itemvalue="Python.prototype" />
       </list>
     </recent_temporary>
@@ -239,6 +296,21 @@
       <option name="presentableId" value="Default" />
       <updated>1537688386408</updated>
     </task>
+    <task id="LOCAL-00001" summary="原型方法 prototype">
+      <created>1537882699161</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1537882699161</updated>
+    </task>
+    <task id="LOCAL-00002" summary="原型方法 prototype，添加注释">
+      <created>1537883168647</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1537883168647</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -250,7 +322,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30169973" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2592068" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -273,6 +345,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="原型方法 prototype" />
+    <MESSAGE value="原型方法 prototype，添加注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="原型方法 prototype，添加注释" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/01_factory_pattern/abstract_factory.py">
@@ -353,13 +430,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/03_prototype_pattern/prototype.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-700">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        <state relative-caret-position="448">
+          <caret line="67" column="22" lean-forward="true" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
           <folding>
             <element signature="e#24#35#0" expanded="true" />
-            <marker date="1537882678722" expanded="true" signature="245:250" ph="..." />
-            <marker date="1537882678722" expanded="true" signature="1378:1999" ph="..." />
-            <marker date="1537882678722" expanded="true" signature="1378:2037" ph="..." />
+            <marker date="1537883153225" expanded="true" signature="245:250" ph="..." />
+            <marker date="1537883153225" expanded="true" signature="1378:2082" ph="..." />
+            <marker date="1537883153225" expanded="true" signature="1378:2120" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mpdp-code-master/chapter4/adapter.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mpdp-code-master/chapter4/external.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-adapter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="53" column="28" lean-forward="true" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
+          <folding>
+            <marker date="1537886030040" expanded="true" signature="86:91" ph="..." />
+            <marker date="1537886030040" expanded="true" signature="305:507" ph="..." />
+            <marker date="1537886030040" expanded="true" signature="529:534" ph="..." />
+            <marker date="1537886030040" expanded="true" signature="738:743" ph="..." />
+            <marker date="1537886030040" expanded="true" signature="985:990" ph="..." />
           </folding>
         </state>
       </provider>
