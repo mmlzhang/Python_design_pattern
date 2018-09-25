@@ -39,6 +39,7 @@ class Human(object):
 # 适配器类
 class Adapter(object):
     def __init__(self, obj, adapted_methods):
+        self.name = 'adapter'
         self.obj = obj
         self.__dict__.update(adapted_methods)
 
@@ -56,6 +57,7 @@ def main():
     objects.append(Adapter(human, dict(execute=human.speak)))
 
     for i in objects:
+        print(i.name)
         print("{} {}".format(str(i), i.execute()))
 
 
