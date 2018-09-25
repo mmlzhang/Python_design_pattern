@@ -59,7 +59,9 @@ def main():
 
     prototype = Prototype()
     cid = 'k&r-first'
+    # cid 为 obj 的key  {cid: obj}, 然后注册到 Prototype类中
     prototype.register(cid, b1)
+    # 通过 cid 获取 obj，并进行克隆和属性修改
     b2 = prototype.clone(cid, name='The C Programming Language(ANSI)', price=48.99,
                          length=274, publication_date='1988-04-01', edition=2)
 
