@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a18512f-f283-46cb-abf8-ec27973f1dc9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/08-MVC_pattern.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,6 +15,7 @@
     <SUITE FILE_PATH="coverage/git_Python_Design_Pattern$05_deactor_pattern.coverage" NAME="05-deactor_pattern Coverage Results" MODIFIED="1538058801216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/git_Python_Design_Pattern$06_face_pattern.coverage" NAME="06-face_pattern Coverage Results" MODIFIED="1538141021587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/git_Python_Design_Pattern$07_share_pattern.coverage" NAME="07-share_pattern Coverage Results" MODIFIED="1538710154366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/git_Python_Design_Pattern$09_.coverage" NAME="09- Coverage Results" MODIFIED="1538915154052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/git_Python_Design_Pattern$08_MVC_pattern.coverage" NAME="08-MVC_pattern Coverage Results" MODIFIED="1538742731969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/git_Python_Design_Pattern$prototype.coverage" NAME="prototype Coverage Results" MODIFIED="1537882502044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_prototype_pattern" />
     <SUITE FILE_PATH="coverage/git_Python_Design_Pattern$04_adapter.coverage" NAME="04-adapter Coverage Results" MODIFIED="1537886123820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -54,36 +55,36 @@
     <session id="732090031">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="3" />
-          <entry key="project.open.time.5" value="3" />
+          <entry key="project.open.time.5" value="5" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="13" />
+          <entry key="py" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="13" />
+          <entry key="Python" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="26" />
           <entry key="dummy" value="10" />
-          <entry key="py" value="7053" />
-          <entry key="txt" value="119" />
+          <entry key="py" value="7923" />
+          <entry key="txt" value="124" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="129" />
-          <entry key="Python" value="7079" />
+          <entry key="PLAIN_TEXT" value="134" />
+          <entry key="Python" value="7949" />
         </counts>
       </usages-collector>
     </session>
@@ -91,29 +92,29 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/07-share_pattern.py">
+        <entry file="file://$PROJECT_DIR$/09-.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="58" column="37" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
+            <state relative-caret-position="373">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
               <folding>
-                <element signature="e#1#14#0" expanded="true" />
-                <marker date="1538710154351" expanded="true" signature="120:125" ph="..." />
-                <marker date="1538710154351" expanded="true" signature="511:1423" ph="..." />
+                <marker date="1538915647017" expanded="true" signature="195:200" ph="..." />
+                <marker date="1538915647017" expanded="true" signature="951:1134" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/08-MVC_pattern.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mpdp-code-master/chapter9/lazy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-              <folding>
-                <marker date="1538742731941" expanded="true" signature="1050:1135" ph="..." />
-                <marker date="1538742731941" expanded="true" signature="1050:1173" ph="..." />
-              </folding>
-            </state>
+            <state relative-caret-position="-747" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mpdp-code-master/chapter9/proxy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-467" />
           </provider>
         </entry>
       </file>
@@ -155,6 +156,7 @@
         <option value="$PROJECT_DIR$/share_pattern.py" />
         <option value="$PROJECT_DIR$/07-share_pattern.py" />
         <option value="$PROJECT_DIR$/08-MVC_pattern.py" />
+        <option value="$PROJECT_DIR$/09-.py" />
       </list>
     </option>
   </component>
@@ -164,10 +166,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="452" />
-    <option name="y" value="32" />
-    <option name="width" value="1369" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="376" />
+    <option name="y" value="2" />
+    <option name="width" value="1370" />
     <option name="height" value="1035" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -195,25 +197,7 @@
               <item name="git_Python_Design_Pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="git_Python_Design_Pattern" type="462c0819:PsiDirectoryNode" />
               <item name="mpdp-code-master" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_Python_Design_Pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_Python_Design_Pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="mpdp-code-master" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_Python_Design_Pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_Python_Design_Pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="mpdp-code-master" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter7" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_Python_Design_Pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_Python_Design_Pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="mpdp-code-master" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter8" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter9" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -223,7 +207,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../git_CSDN_AUTO" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -253,29 +237,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.08-MVC_pattern">
-    <configuration name="04-adapter" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_Design_Pattern" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\WorkSpace\git_Python_Design_Pattern\04-adapter_pttern.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.09-">
     <configuration name="05-deactor_pattern" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_Design_Pattern" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -364,20 +326,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="09-" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_Design_Pattern" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/09-.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.04-adapter" />
       <item itemvalue="Python.05-deactor_pattern" />
       <item itemvalue="Python.06-face_pattern" />
       <item itemvalue="Python.07-share_pattern" />
       <item itemvalue="Python.08-MVC_pattern" />
+      <item itemvalue="Python.09-" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.09-" />
         <item itemvalue="Python.08-MVC_pattern" />
         <item itemvalue="Python.07-share_pattern" />
         <item itemvalue="Python.06-face_pattern" />
         <item itemvalue="Python.05-deactor_pattern" />
-        <item itemvalue="Python.04-adapter" />
       </list>
     </recent_temporary>
   </component>
@@ -441,19 +425,26 @@
       <option name="project" value="LOCAL" />
       <updated>1538710208400</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="添加MVC模式">
+      <created>1538742783841</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1538742783841</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="362" y="26" width="1095" height="828" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19286403" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13941018" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33189654" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32719547" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3994253" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -511,7 +502,8 @@
     <MESSAGE value="添加修饰器模式，deactor_pattern" />
     <MESSAGE value="添加外观模式，face_pattern" />
     <MESSAGE value="添加享元模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加享元模式" />
+    <MESSAGE value="添加MVC模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加MVC模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -640,7 +632,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/07-share_pattern.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
+        <state relative-caret-position="1596">
           <caret line="58" column="37" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
           <folding>
             <element signature="e#1#14#0" expanded="true" />
@@ -660,12 +652,32 @@
     <entry file="file://$PROJECT_DIR$/08-MVC_pattern.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
-          <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
           <folding>
             <marker date="1538742731941" expanded="true" signature="1050:1135" ph="..." />
-            <marker date="1538742731941" expanded="true" signature="1050:1173" ph="..." />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <marker date="1538915647017" expanded="true" signature="195:200" ph="..." />
+            <marker date="1538915647017" expanded="true" signature="951:1134" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mpdp-code-master/chapter9/lazy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-747" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mpdp-code-master/chapter9/proxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-467" />
       </provider>
     </entry>
   </component>
