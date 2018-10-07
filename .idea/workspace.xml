@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a18512f-f283-46cb-abf8-ec27973f1dc9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/09-.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-proxy_pattern/09-2-proxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/09-proxy_pattern/09-2-proxy.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +13,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/git_Python_Design_Pattern$05_deactor_pattern.coverage" NAME="05-deactor_pattern Coverage Results" MODIFIED="1538058801216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/git_Python_Design_Pattern$09_2_proxy.coverage" NAME="09-2-proxy Coverage Results" MODIFIED="1538927915117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/09-proxy_pattern" />
     <SUITE FILE_PATH="coverage/git_Python_Design_Pattern$06_face_pattern.coverage" NAME="06-face_pattern Coverage Results" MODIFIED="1538141021587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/git_Python_Design_Pattern$07_share_pattern.coverage" NAME="07-share_pattern Coverage Results" MODIFIED="1538710154366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/git_Python_Design_Pattern$09_.coverage" NAME="09- Coverage Results" MODIFIED="1538915154052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -65,26 +66,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="16" />
+          <entry key="py" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="16" />
+          <entry key="Python" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="26" />
-          <entry key="dummy" value="10" />
-          <entry key="py" value="7923" />
-          <entry key="txt" value="124" />
+          <entry key="dummy" value="16" />
+          <entry key="py" value="8818" />
+          <entry key="txt" value="139" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="134" />
-          <entry key="Python" value="7949" />
+          <entry key="PLAIN_TEXT" value="155" />
+          <entry key="Python" value="8844" />
         </counts>
       </usages-collector>
     </session>
@@ -92,10 +93,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/09-.py">
+        <entry file="file://$PROJECT_DIR$/09-proxy_pattern/09-1-Lazy.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="373">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
               <folding>
                 <marker date="1538915647017" expanded="true" signature="195:200" ph="..." />
                 <marker date="1538915647017" expanded="true" signature="951:1134" ph="..." />
@@ -111,18 +112,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mpdp-code-master/chapter9/proxy.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-467" />
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mpdp-code-master/chapter8/mvc.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/09-proxy_pattern/09-2-proxy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+              <folding>
+                <marker date="1538928205819" expanded="true" signature="29:30" ph="..." />
+                <marker date="1538928205819" expanded="true" signature="725:1132" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -157,6 +164,7 @@
         <option value="$PROJECT_DIR$/07-share_pattern.py" />
         <option value="$PROJECT_DIR$/08-MVC_pattern.py" />
         <option value="$PROJECT_DIR$/09-.py" />
+        <option value="$PROJECT_DIR$/09-proxy_pattern/09-2-proxy.py" />
       </list>
     </option>
   </component>
@@ -191,13 +199,7 @@
             <path>
               <item name="git_Python_Design_Pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="git_Python_Design_Pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="mpdp-code-master" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git_Python_Design_Pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git_Python_Design_Pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="mpdp-code-master" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter9" type="462c0819:PsiDirectoryNode" />
+              <item name="09-proxy_pattern" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -222,6 +224,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\git_Python_Design_Pattern\09-proxy_pattern" />
       <recent name="D:\WorkSpace\Python_Design_Pattern\01_factory_pattern" />
     </key>
   </component>
@@ -237,29 +240,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.09-">
-    <configuration name="05-deactor_pattern" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_Design_Pattern" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05-deactor_pattern.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.09-2-proxy">
     <configuration name="06-face_pattern" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_Design_Pattern" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -339,7 +320,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/09-.py" />
+      <option name="SCRIPT_NAME" value="D:\WorkSpace\git_Python_Design_Pattern\09-proxy_pattern\09-1-Lazy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="09-2-proxy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_Design_Pattern" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/09-proxy_pattern" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/09-proxy_pattern/09-2-proxy.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -349,19 +352,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.05-deactor_pattern" />
       <item itemvalue="Python.06-face_pattern" />
       <item itemvalue="Python.07-share_pattern" />
       <item itemvalue="Python.08-MVC_pattern" />
       <item itemvalue="Python.09-" />
+      <item itemvalue="Python.09-2-proxy" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.09-2-proxy" />
         <item itemvalue="Python.09-" />
         <item itemvalue="Python.08-MVC_pattern" />
         <item itemvalue="Python.07-share_pattern" />
         <item itemvalue="Python.06-face_pattern" />
-        <item itemvalue="Python.05-deactor_pattern" />
       </list>
     </recent_temporary>
   </component>
@@ -432,19 +435,33 @@
       <option name="project" value="LOCAL" />
       <updated>1538742783841</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="添加虚拟代理代码">
+      <created>1538927089584</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1538927089584</updated>
+    </task>
+    <task id="LOCAL-00010" summary="添加代理模式代码">
+      <created>1538927937614</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1538927937614</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13941018" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.13941018" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32719547" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32719547" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3994253" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -503,7 +520,9 @@
     <MESSAGE value="添加外观模式，face_pattern" />
     <MESSAGE value="添加享元模式" />
     <MESSAGE value="添加MVC模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加MVC模式" />
+    <MESSAGE value="添加虚拟代理代码" />
+    <MESSAGE value="添加代理模式代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加代理模式代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -659,10 +678,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/09-.py">
+    <entry file="file://$PROJECT_DIR$/09-proxy_pattern/09-1-Lazy.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
           <folding>
             <marker date="1538915647017" expanded="true" signature="195:200" ph="..." />
             <marker date="1538915647017" expanded="true" signature="951:1134" ph="..." />
@@ -677,7 +696,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mpdp-code-master/chapter9/proxy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-467" />
+        <state relative-caret-position="112">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-proxy_pattern/09-2-proxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <folding>
+            <marker date="1538928205819" expanded="true" signature="29:30" ph="..." />
+            <marker date="1538928205819" expanded="true" signature="725:1132" ph="..." />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

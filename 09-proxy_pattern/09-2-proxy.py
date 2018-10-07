@@ -21,9 +21,11 @@ class Info(object):
         self.secret = '123'
 
     def read(self):
+        """读取用户不需要权限限制"""
         self.protected.read()
 
     def add(self, user):
+        """添加权限限制"""
         sec = input("What is the secret?")
         self.protected.add(user) if sec == self.secret else print("Secret Wrong!")
 
