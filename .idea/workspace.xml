@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a18512f-f283-46cb-abf8-ec27973f1dc9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/10_chain_pattern.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_command_pattern.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,39 +66,54 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="19" />
+          <entry key="py" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="19" />
+          <entry key="Python" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="34" />
           <entry key="dummy" value="16" />
-          <entry key="py" value="9928" />
+          <entry key="py" value="11179" />
           <entry key="txt" value="145" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="161" />
-          <entry key="Python" value="9962" />
+          <entry key="Python" value="11213" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/10_chain_pattern.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="450">
+              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
               <folding>
                 <marker date="1540036260327" expanded="true" signature="1010:1455" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/11_command_pattern.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="70" column="16" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
+              <folding>
+                <marker date="1540046890763" expanded="true" signature="73:74" ph="..." />
+                <marker date="1540046890763" expanded="true" signature="505:510" ph="..." />
+                <marker date="1540046890763" expanded="true" signature="865:870" ph="..." />
+                <marker date="1540046890763" expanded="true" signature="1143:1148" ph="..." />
               </folding>
             </state>
           </provider>
@@ -137,6 +151,7 @@
         <option value="$PROJECT_DIR$/09-.py" />
         <option value="$PROJECT_DIR$/09-proxy_pattern/09-2-proxy.py" />
         <option value="$PROJECT_DIR$/10_chain_pattern.py" />
+        <option value="$PROJECT_DIR$/11_command_pattern.py" />
       </list>
     </option>
   </component>
@@ -427,6 +442,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11997319" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -725,10 +741,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/10_chain_pattern.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="450">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
           <folding>
             <marker date="1540036260327" expanded="true" signature="1010:1455" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11_command_pattern.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="70" column="16" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
+          <folding>
+            <marker date="1540046890763" expanded="true" signature="73:74" ph="..." />
+            <marker date="1540046890763" expanded="true" signature="505:510" ph="..." />
+            <marker date="1540046890763" expanded="true" signature="865:870" ph="..." />
+            <marker date="1540046890763" expanded="true" signature="1143:1148" ph="..." />
           </folding>
         </state>
       </provider>
